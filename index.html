@@ -18,7 +18,7 @@
 <body>
 
     <header class="header">
-        <h1>Weather Dashboard</h1>
+        <h1>☀️ Weather Dashboard ☀️</h1>
         </div>
     </header>
 
@@ -27,51 +27,40 @@
         <div class="container-fluid">
             <div class="row page-content">
             <div class="col-sm-4 bg-light p-0">
-                    <!-- search form -->
-                    <div class="form-container">
-                        <form id="search-form">
-                            <!-- search input label -->
-                            <div class="row m-0">
-
-                            </div>
-                            <!-- search label input and button-->
-                            <div class="row m-0">
-                                <div class="col-sm-8 p-0 my-auto">
-                                    <input type="text" id="search-input" name="search-input" class="search-input" placeholder="Enter City to View Weather">
-                                </div>
-                                <div class="col-sm-4 p-0">
-                                    <button type="submit" class="btn bg-primary search-button">
-                                        <span class="fas fa-search"></span>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- search history -->
-                    <div id="search-history-container" class="row m-0 search-history-container">
-  
-                    </div>
-                </div>
+            <div class="form-container">
+            <form id="search-form">
+            <div class="row m-0"> </div>
+                          
+            <div class="row m-0">
+            <div class="col-sm-8 p-0 my-auto">
+            <input type="text" id="search-input" name="search-input" class="search-input" placeholder="Enter City to View Weather"></div>
+            <div class="col-sm-4 p-0">
+            <button type="submit" placeholder="submit" class="btn bg-primary search-button">
+            <span class="fas fa-search"></span></button>
+            </div>
+            </div>
+            </form>
+            </div>
+          
+            <div id="search-history-container" class="row m-0 search-history-container"></div>
+            </div>
     
-                <!-- column 2 -->
-                <div class="col-sm-8 p-0">
-                    <!-- current weather conditions -->
-                    <div id="current-weather-container" class="row d-block">
-                        <!-- current weather title -->
-                        <div class="current-title-container">
-                            <h2 id="current-title" class="current-title d-inline"></h2>
-                            <img id="current-weather-icon" class="d-inline" src="" alt="">
-                        </div>
+            <div class="col-sm-8 p-0">
+            <div id="current-weather-container" class="row d-block">
+            <div class="current-title-container">
+            <h2 id="current-title" class="current-title d-inline"></h2>
+            <img id="current-weather-icon" class="d-inline" src="" alt=""></div>
                         <!-- current weather temperature -->
-                        <p class="current-temperature" id="current-temperature"></p>
+            <p class="current-temperature" id="current-temperature"></p>
                         <!-- current weather humidity -->
-                        <p class="current-humidity" id="current-humidity"></p>
+            <p class="current-humidity" id="current-humidity"></p>
                         <!-- current weather wind speed -->
-                        <p class="current-wind-speed" id="current-wind-speed"></p>
-                        <!-- current weather uv index -->
-                        <p class="current-uv-index" id="current-uv-index"></p>
-                        <p class="current-number rounded" id="current-number"></p>
+            <p class="current-wind-speed" id="current-wind-speed"></p>
+                        
                     </div>
+
+
+
                     <!-- 5 day forecast -->
                     <div class="row future-forecast-container d-block">
                         <!-- 5 day forecast title-->

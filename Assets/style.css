@@ -6,61 +6,48 @@
 }
 .header {
     background-color: lightskyblue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
 
 }
 
-
-.h1-container {
-    padding: 4px;
-}
-
-.form-container {
-    padding: 10px;
-}
-
-.search-label {
-    font-size: 20px;
-    font-weight: 600;
-}
 
 .search-input {
-    width: 100%;
-    height: 40px;
-    border-color: lightgrey;
-    border-width: thin;
-    padding: 0 15px;
+    width: 300px;
+    height: 50px;
+    border-color: lightskyblue;
+    color:darkblue;
+    border-width: thick;
+    padding: 0 25px;
 }
 
 .search-button {
-    padding: 10px 15px;
+    padding: 10px 20px; 
+
 }
 
-.searchHistory {
-    padding: 10px;
-}
 
 .past-search {
-    background-color: white;
-    border-width: thin;
-    border-color: lightgrey;
+    background-color: lightskyblue;
+    border-width: thick;
+    border-color: lightskyblue;
     border-style: solid;
     border-radius: 3px;
     margin: 0;
     text-align: left;
-    width: 350px;
-    height: 45px;
-    line-height: 45px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
     padding: 0 20px;
-    color: grey;
+    color:white;
 }
 
 .current-weather-container {
-    border-color: lightgrey;
-    border-width: thin 0 thin thin;
-    border-style: solid;
-    border-radius: 3px;
+    border-color: lightskyblue;
     margin: 20px 0 0 20px;
     padding: 0 0 12px 0;
+    color:darkblue;
 }
 
 .current-title-container {
@@ -73,60 +60,41 @@
 }
 
 .current-weather-icon {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 
 .current-temperature, .current-humidity, .current-wind-speed {
     margin: 15px 20px;
-    font-size: 20px;
-}
-
-.current-uv-index {
-    font-size: 20px;
-    display: inline;
+    font-size: 25px;
+    color: darkblue;
     margin: 0 0 0 20px;
 }
 
-.current-number {
-    font-size: 20px;
-    display: inline;
-    color: white;
-    padding: 5px 10px;
-}
-
-.favorable {
-    background-color: green;
-}
-
-.moderate {
-    background-color: yellow;
-}
-
-.severe {
-    backgound-color: red;
-}
 
 .future-forecast-container {
-    margin: 5px 20px 0 20px;
+    margin: 15px 0 20px 20px;
 }
 
 .future-forecast-title {
     font-size: 27px;
+    color:darkblue;
 }
 
 .future-card-details {
-    width: 17%;
-    padding: 7px 0 0 7px;
+    width: 19%;
+    padding: 8px 0 0 8px;
+    background-color: lightskyblue;
 }
 
 .future-date {
-    font-size: 23px;
+    font-size: 25px;
+    
 }
 
 .future-icon {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     margin: 0 0 0 15px;
 }
 
